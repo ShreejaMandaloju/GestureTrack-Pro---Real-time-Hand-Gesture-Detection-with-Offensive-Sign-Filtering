@@ -14,7 +14,7 @@ It also recognizes other gestures like ✌️ Peace sign, 🤘 Rock sign, 👋 O
   - Rock Sign
   - Open Palm
   - Closed Fist
-  - Thumbs Up / Down
+  - Thumbs Up
 - 🧠 Uses **MediaPipe Hands & Face Detection**
 - 🔒 Automatically blurs faces for privacy
 - 🔇 Blurs offensive gestures to avoid displaying them
@@ -37,11 +37,17 @@ It also recognizes other gestures like ✌️ Peace sign, 🤘 Rock sign, 👋 O
 
 ---
 
-## 🧩 Installation
-
 ### Clone the repository
 
 ```bash
 git clone https://github.com/ShreejaMandaloju/GestureTrack-Pro---Real-time-Hand-Gesture-Detection-with-Offensive-Sign-Filtering.git
 cd GestureTrack-Pro---Real-time-Hand-Gesture-Detection-with-Offensive-Sign-Filtering
 ```
+## ✨ Example Gestures
+- Gesture	Action
+- Middle Finger	Blurs region + Beep alert
+- Open Palm	Displays "Open Palm"
+- Closed Fist	Displays "Closed Fist"
+- Peace Sign	Displays "Peace Sign"
+- Rock Sign	Displays "Rock Sign"
+- Thumbs Up	Displays "Thumbs Up"
