@@ -1,40 +1,47 @@
-# FingerSense
+# 🤖 GestureTrack Pro — Real-Time Hand Gesture Detection with Offensive Sign Filtering
 
-FingerSense is a real-time webcam filter that detects when the middle finger is shown and automatically applies a Gaussian blur to censor it. It leverages OpenCV and MediaPipe for accurate hand tracking, combined with a gesture history voting system to reduce flicker and ensure smooth, reliable detection.
+GestureTrack Pro is a real-time computer vision project built using **Python**, **OpenCV**, and **MediaPipe** that detects various hand gestures using a webcam and performs specific actions such as blurring offensive signs (like the middle finger) to ensure content safety. 
 
-## Features
+It also recognizes other gestures like ✌️ Peace sign, 🤘 Rock sign, 👋 Open palm, ✊ Closed fist, 👍 Thumbs up, 👎 Thumbs down — making it ideal for **AI-based gesture control, safety monitoring, and human-computer interaction**.
 
-- Real-time middle finger detection using MediaPipe hand tracking  
-- Automatic Gaussian blur applied to censor the middle finger gesture  
-- Gesture history voting system to stabilize detection and minimize flicker  
-- Handles hand disappearance gracefully to prevent crashes  
+---
 
-## Installation
+## 🚀 Features
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/FingerSense.git
-    cd FingerSense
-    ````
+- ✋ Detects and identifies hand gestures:
+  - Middle Finger (blurred + beep alert)
+  - Peace Sign
+  - Rock Sign
+  - Open Palm
+  - Closed Fist
+  - Thumbs Up / Down
+- 🧠 Uses **MediaPipe Hands & Face Detection**
+- 🔒 Automatically blurs faces for privacy
+- 🔇 Blurs offensive gestures to avoid displaying them
+- 📢 Plays beep sound when offensive gesture is detected
+- ⚡ Works in real-time using webcam
 
-2. Install dependencies:
+---
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+## 🛠️ Tech Stack
 
-## Usage
+| Component      | Technology                |
+|----------------|---------------------------|
+| Language       | Python                    |
+| CV Library     | OpenCV                    |
+| Hand Tracking  | MediaPipe Hands           |
+| Face Detection | MediaPipe Face Detection  |
+| Sound Alerts   | winsound (Windows only)   |
+| Gesture Logic  | Custom logic using finger landmarks |
+| IDE            | VS Code / Jupyter Notebook |
 
-Run the main script to start the webcam filter:
+---
 
-  ```bash
-python finger_sense.py
-  ```
+## 🧩 Installation
 
-Show your middle finger to see it blurred in real-time!
+### Clone the repository
 
-## Requirements
-
-* Python 3.7+
-* OpenCV (opencv-python==4.10.0.82)
-* MediaPipe (mediapipe==0.10.21)
+```bash
+git clone https://github.com/ShreejaMandaloju/GestureTrack-Pro---Real-time-Hand-Gesture-Detection-with-Offensive-Sign-Filtering.git
+cd GestureTrack-Pro---Real-time-Hand-Gesture-Detection-with-Offensive-Sign-Filtering
+```
